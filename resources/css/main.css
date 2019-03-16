@@ -95,6 +95,60 @@ header .layout-wide {
 /*------------------- FOOTER  */
 footer {
     background-color: var(--alternative-bg-color);
+    text-align: center;
+}
+
+.footer-subscribe {
+    background-color: var(--alternative-text-color);
+    padding-top: var(--spacer-large);
+    padding-bottom: var(--spacer-large);
+}
+
+.footer-notices {
+    padding-top: var(--spacer);
+    padding-bottom: var(--spacer);
+}
+
+.footer-notices .layout-wide {
+    margin-bottom: 0;
+    color: var(--alternative-text-color);
+}
+
+/* mailchimp form */
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"] {
+    border: 1px solid var(--border-color);
+    padding: 10px;
+    width: 480px;
+    max-width: 100%;
+    margin-bottom: var(--spacer);
+    border-radius: 4px;
+}
+
+.button {
+    background-color: var(--alternative-bg-color);
+    font-family: var(--font-heading);
+
+    padding: var(--spacer);
+    border-radius: 30px;
+
+    min-width: 200px;
+    color: var(--alternative-text-color);
+
+    border: none;
+
+    text-transform: uppercase;
+
+    transition: var(--transition-time);
+}
+
+.button:hover {
+    background-color: var(--strong-text-color);
 }
 
 /*------------------- MODULES  */
