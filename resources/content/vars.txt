@@ -1,6 +1,5 @@
 :root {
 
-  
 
   /* Colors */
   --main-text-color: #34495e;
