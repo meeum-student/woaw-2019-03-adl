@@ -16,3 +16,14 @@ $('.nav-prompt').click(function()  {
 });
 
 
+// image gallery
+
+function imageGallery() {
+
+    if ($('.image-gallery').length) {
+
+        $('.image-gallery a').simpleLightbox();
+    }
+}
+
+imageGallery();
