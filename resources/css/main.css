@@ -62,6 +62,10 @@ img {
     height: auto;
 }
 
+iframe {
+    max-width: 100%;
+}
+
 
 /*------------------- HEADINGS AND TYPE  */
 h1,
