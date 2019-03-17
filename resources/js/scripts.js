@@ -37,3 +37,19 @@ function imageGallery() {
 }
 
 imageGallery();
+
+
+// active nav
+
+function activeMenu() {
+
+    var url = window.location.href;
+
+    $('.nav-inner a').filter(function() {
+
+        return this.href == url;
+
+    }).addClass('active')
+}
+
+activeMenu();

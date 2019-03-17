@@ -191,6 +191,9 @@ header .layout-wide {
     padding: var(--spacer) 5px;
 }
 
+
+
+
 @media screen and (min-width: 800px) {
 
     .nav-prompt {
@@ -205,6 +208,13 @@ header .layout-wide {
     .nav-inner a {
         border-bottom: 2px solid transparent;
         
+        padding: 0;
+        margin-bottom: var(--spacer);
+    }
+
+    .nav-inner .active {
+        border-bottom-color: var(--alternative-text-color);
+        font-weight: bold;
     }
 } 
 
